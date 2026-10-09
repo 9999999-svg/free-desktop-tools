@@ -6,7 +6,7 @@
 
 ## Windows EXE
 
-[下载 Windows EXE](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/Watermark.exe) · [查看 Python 源码](batch_watermark.py) · [下载全部源码](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/free-desktop-tools-source-v1.1.0.zip)。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python batch_watermark.py` 换成 `Watermark.exe`。
+[下载 Windows EXE](https://github.com/9999999-svg/batch-watermark/releases/download/v1.0.0/Watermark.exe) · [查看 Python 源码](batch_watermark.py) · [下载全部源码](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/free-desktop-tools-source-v1.1.0.zip)。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python batch_watermark.py` 换成 `Watermark.exe`。
 ## Python 源码
 
 安装本目录依赖后启动：
@@ -25,3 +25,5 @@ python batch_watermark.py --help
 源码和 EXE 始终免费；赞助完全自愿，见仓库首页。
 
 LSB 输出使用原文件名追加 `.lsb.png`，保证无损恢复。默认跳过已有输出，并拒绝覆盖输入原图。
+
+[独立仓库及单独源码包](https://github.com/9999999-svg/batch-watermark) · [返回工具合集](../../README.md)

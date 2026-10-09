@@ -1,6 +1,6 @@
 # 免费桌面工具集 / Free Desktop Tools
 
-11 款免费桌面工具，加上《精灵物语》满蓝修改版。普通工具提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
+11 款免费桌面工具，加上《精灵物语》满蓝修改版。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
 
 ## 下载
 
@@ -8,13 +8,13 @@
 
 | 工具 | 用途 | EXE 直接下载 | 源码和介绍 |
 | --- | --- | --- | --- |
-| 批量正方形缩图 | 缩放并居中裁剪为正方形 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/BatchResize.exe) | [介绍](tools/batch-resize/README.md) · [源码](tools/batch-resize/batch_resize.py) |
-| 批量图片格式转换 | 转换常见图片格式 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/BatchConvert.exe) | [介绍](tools/batch-convert/README.md) · [源码](tools/batch-convert/batch_convert.py) |
-| 图片隐藏文字标记 | 文件尾标记与无损像素隐写 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/Watermark.exe) | [介绍](tools/batch-watermark/README.md) · [源码](tools/batch-watermark/batch_watermark.py) |
-| 视频片段转 GIF | 截取视频片段生成 GIF | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/Video2GIF.exe) | [介绍](tools/video-to-gif/README.md) · [源码](tools/video-to-gif/video_to_gif.py) |
-| 批量提取视频音频 | 提取 MP3、M4A、WAV 等音频 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/ExtractAudio.exe) | [介绍](tools/extract-audio/README.md) · [源码](tools/extract-audio/extract_audio.py) |
-| 图片和视频批量重命名 | 预览日期、序号或模板重命名 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/BatchRename.exe) | [介绍](tools/batch-rename/README.md) · [源码](tools/batch-rename/batch_rename.py) |
-| 视频和音频下载器 | 下载有权保存的视频或音频 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/UniversalDL.exe) | [介绍](tools/video-downloader/README.md) · [源码](tools/video-downloader/universal_downloader.py) |
+| 批量正方形缩图 | 缩放并居中裁剪为正方形 | [下载](https://github.com/9999999-svg/batch-resize/releases/download/v1.0.0/BatchResize.exe) | [介绍](tools/batch-resize/README.md) · [源码](tools/batch-resize/batch_resize.py) · [独立仓库](https://github.com/9999999-svg/batch-resize) |
+| 批量图片格式转换 | 转换常见图片格式 | [下载](https://github.com/9999999-svg/batch-convert/releases/download/v1.0.0/BatchConvert.exe) | [介绍](tools/batch-convert/README.md) · [源码](tools/batch-convert/batch_convert.py) · [独立仓库](https://github.com/9999999-svg/batch-convert) |
+| 图片隐藏文字标记 | 文件尾标记与无损像素隐写 | [下载](https://github.com/9999999-svg/batch-watermark/releases/download/v1.0.0/Watermark.exe) | [介绍](tools/batch-watermark/README.md) · [源码](tools/batch-watermark/batch_watermark.py) · [独立仓库](https://github.com/9999999-svg/batch-watermark) |
+| 视频片段转 GIF | 截取视频片段生成 GIF | [下载](https://github.com/9999999-svg/video-to-gif/releases/download/v1.0.0/Video2GIF.exe) | [介绍](tools/video-to-gif/README.md) · [源码](tools/video-to-gif/video_to_gif.py) · [独立仓库](https://github.com/9999999-svg/video-to-gif) |
+| 批量提取视频音频 | 提取 MP3、M4A、WAV 等音频 | [下载](https://github.com/9999999-svg/extract-audio/releases/download/v1.0.0/ExtractAudio.exe) | [介绍](tools/extract-audio/README.md) · [源码](tools/extract-audio/extract_audio.py) · [独立仓库](https://github.com/9999999-svg/extract-audio) |
+| 图片和视频批量重命名 | 预览日期、序号或模板重命名 | [下载](https://github.com/9999999-svg/batch-rename/releases/download/v1.0.0/BatchRename.exe) | [介绍](tools/batch-rename/README.md) · [源码](tools/batch-rename/batch_rename.py) · [独立仓库](https://github.com/9999999-svg/batch-rename) |
+| 视频和音频下载器 | 下载有权保存的视频或音频 | [下载](https://github.com/9999999-svg/video-downloader/releases/download/v1.0.0/UniversalDL.exe) | [介绍](tools/video-downloader/README.md) · [源码](tools/video-downloader/universal_downloader.py) · [独立仓库](https://github.com/9999999-svg/video-downloader) |
 | 重复文件扫描器 | 按内容查找重复副本，导出 CSV | [下载](https://github.com/9999999-svg/duplicate-file-finder/releases/download/v1.0.0/DuplicateFinder.exe) | [介绍](tools/duplicate-file-finder/README.md) · [源码](tools/duplicate-file-finder/duplicate_finder.py) · [独立仓库](https://github.com/9999999-svg/duplicate-file-finder) |
 | SHA-256 批量校验器 | 按清单核对下载文件完整性 | [下载](https://github.com/9999999-svg/sha256-checker/releases/download/v1.0.0/SHA256Checker.exe) | [介绍](tools/sha256-checker/README.md) · [源码](tools/sha256-checker/sha256_checker.py) · [独立仓库](https://github.com/9999999-svg/sha256-checker) |
 | 文件夹对比器 | 检查两份备份的文件差异 | [下载](https://github.com/9999999-svg/folder-compare/releases/download/v1.0.0/FolderCompare.exe) | [介绍](tools/folder-compare/README.md) · [源码](tools/folder-compare/folder_compare.py) · [独立仓库](https://github.com/9999999-svg/folder-compare) |
