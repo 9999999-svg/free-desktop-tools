@@ -6,10 +6,10 @@
 
 ## Windows EXE
 
-从仓库 Releases 下载 `Watermark.exe`。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python batch_watermark.py` 换成 `Watermark.exe`。
+[下载 Windows EXE](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/Watermark.exe) · [查看 Python 源码](batch_watermark.py) · [下载全部源码](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/free-desktop-tools-source-v1.1.0.zip)。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python batch_watermark.py` 换成 `Watermark.exe`。
 ## Python 源码
 
-本次验证环境：Windows x64 / Python 3.14.6。安装本目录依赖后启动：
+安装本目录依赖后启动：
 
 ```powershell
 python -m pip install -r requirements.txt

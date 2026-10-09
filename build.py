@@ -13,6 +13,10 @@ TOOLS = {
     'extract-audio': ('extract_audio.py', 'ExtractAudio'),
     'batch-rename': ('batch_rename.py', 'BatchRename'),
     'video-downloader': ('universal_downloader.py', 'UniversalDL'),
+    'duplicate-file-finder': ('duplicate_finder.py', 'DuplicateFinder'),
+    'sha256-checker': ('sha256_checker.py', 'SHA256Checker'),
+    'folder-compare': ('folder_compare.py', 'FolderCompare'),
+    'text-encoding-converter': ('text_encoding_converter.py', 'TextEncodingConverter'),
 }
 
 def main():

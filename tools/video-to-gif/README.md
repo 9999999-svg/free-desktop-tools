@@ -6,12 +6,12 @@
 
 ## Windows EXE
 
-从仓库 Releases 下载 `Video2GIF.exe`。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python video_to_gif.py` 换成 `Video2GIF.exe`。
+[下载 Windows EXE](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/Video2GIF.exe) · [查看 Python 源码](video_to_gif.py) · [下载全部源码](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/free-desktop-tools-source-v1.1.0.zip)。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python video_to_gif.py` 换成 `Video2GIF.exe`。
 EXE 版不捆绑 FFmpeg。请从 [FFmpeg 官方下载入口](https://ffmpeg.org/download.html)取得可信 Windows 构建，将 ffmpeg.exe 放在工具 EXE 同目录，或加入 PATH。Python 版也可由 imageio-ffmpeg 提供 FFmpeg（约 31 MB 下载）。
 
 ## Python 源码
 
-本次验证环境：Windows x64 / Python 3.14.6。安装本目录依赖后启动：
+安装本目录依赖后启动：
 
 ```powershell
 python -m pip install -r requirements.txt

@@ -1,37 +1,50 @@
 # 免费桌面工具集 / Free Desktop Tools
 
-7 个 Windows 图形界面与命令行工具，提供可编辑 Python 源码及 Windows x64 EXE。全部功能免费，自有源码采用 MIT 许可。
+11 款免费桌面工具，加上《精灵物语》满蓝修改版。普通工具提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
 
-| 工具 | Python 源码 | Windows EXE |
-| --- | --- | --- |
-| [批量正方形缩图](tools/batch-resize/README.md) | `batch_resize.py` | `BatchResize.exe` |
-| [批量图片格式转换](tools/batch-convert/README.md) | `batch_convert.py` | `BatchConvert.exe` |
-| [图片隐藏文字标记](tools/batch-watermark/README.md) | `batch_watermark.py` | `Watermark.exe` |
-| [视频片段转 GIF](tools/video-to-gif/README.md) | `video_to_gif.py` | `Video2GIF.exe` |
-| [批量提取视频音频](tools/extract-audio/README.md) | `extract_audio.py` | `ExtractAudio.exe` |
-| [图片和视频批量重命名](tools/batch-rename/README.md) | `batch_rename.py` | `BatchRename.exe` |
-| [视频和音频下载器](tools/video-downloader/README.md) | `universal_downloader.py` | `UniversalDL.exe` |
+## 下载
 
-## 下载与使用
+[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/all-tools-windows-v1.1.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/free-desktop-tools-source-v1.1.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/SHA256SUMS.txt)
 
-在 **Releases** 下载源码 ZIP 或对应 EXE。不带参数启动图形界面，`--help` 查看命令行参数。图片处理默认使用单独的输出目录；重命名先预览，删除原图选项先备份。
+| 工具 | 用途 | EXE 直接下载 | 源码和介绍 |
+| --- | --- | --- | --- |
+| 批量正方形缩图 | 缩放并居中裁剪为正方形 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/BatchResize.exe) | [介绍](tools/batch-resize/README.md) · [源码](tools/batch-resize/batch_resize.py) |
+| 批量图片格式转换 | 转换常见图片格式 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/BatchConvert.exe) | [介绍](tools/batch-convert/README.md) · [源码](tools/batch-convert/batch_convert.py) |
+| 图片隐藏文字标记 | 文件尾标记与无损像素隐写 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/Watermark.exe) | [介绍](tools/batch-watermark/README.md) · [源码](tools/batch-watermark/batch_watermark.py) |
+| 视频片段转 GIF | 截取视频片段生成 GIF | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/Video2GIF.exe) | [介绍](tools/video-to-gif/README.md) · [源码](tools/video-to-gif/video_to_gif.py) |
+| 批量提取视频音频 | 提取 MP3、M4A、WAV 等音频 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/ExtractAudio.exe) | [介绍](tools/extract-audio/README.md) · [源码](tools/extract-audio/extract_audio.py) |
+| 图片和视频批量重命名 | 预览日期、序号或模板重命名 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/BatchRename.exe) | [介绍](tools/batch-rename/README.md) · [源码](tools/batch-rename/batch_rename.py) |
+| 视频和音频下载器 | 下载有权保存的视频或音频 | [下载](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/UniversalDL.exe) | [介绍](tools/video-downloader/README.md) · [源码](tools/video-downloader/universal_downloader.py) |
+| 重复文件扫描器 | 按内容查找重复副本，导出 CSV | [下载](https://github.com/9999999-svg/duplicate-file-finder/releases/download/v1.0.0/DuplicateFinder.exe) | [介绍](tools/duplicate-file-finder/README.md) · [源码](tools/duplicate-file-finder/duplicate_finder.py) · [独立仓库](https://github.com/9999999-svg/duplicate-file-finder) |
+| SHA-256 批量校验器 | 按清单核对下载文件完整性 | [下载](https://github.com/9999999-svg/sha256-checker/releases/download/v1.0.0/SHA256Checker.exe) | [介绍](tools/sha256-checker/README.md) · [源码](tools/sha256-checker/sha256_checker.py) · [独立仓库](https://github.com/9999999-svg/sha256-checker) |
+| 文件夹对比器 | 检查两份备份的文件差异 | [下载](https://github.com/9999999-svg/folder-compare/releases/download/v1.0.0/FolderCompare.exe) | [介绍](tools/folder-compare/README.md) · [源码](tools/folder-compare/folder_compare.py) · [独立仓库](https://github.com/9999999-svg/folder-compare) |
+| 文本编码转换器 | 严格转换 GBK、UTF-8、UTF-16 等文本编码 | [下载](https://github.com/9999999-svg/text-encoding-converter/releases/download/v1.0.0/TextEncodingConverter.exe) | [介绍](tools/text-encoding-converter/README.md) · [源码](tools/text-encoding-converter/text_encoding_converter.py) · [独立仓库](https://github.com/9999999-svg/text-encoding-converter) |
+| 精灵物语满蓝版 | 蓝量恢复满值 | [下载](https://github.com/9999999-svg/full-mana-edition/releases/download/v1.0.0/FullMana.exe) | [介绍及修改源码](games/full-mana-edition/README.md) · [独立仓库](https://github.com/9999999-svg/full-mana-edition) |
 
-视频相关 EXE 需要 FFmpeg：从 [官方入口](https://ffmpeg.org/download.html)获取，将 ffmpeg.exe 放在 EXE 同目录或加入 PATH。本仓库不捆绑 FFmpeg 二进制。下载器的站点支持随 yt-dlp 和平台变化，不保证每个网站可用。
+需要 SWF 版可[单独下载](https://github.com/9999999-svg/full-mana-edition/releases/download/v1.0.0/FullMana.swf)。
 
-## 从源码运行和构建
+## 使用
+
+普通 EXE 不带参数时打开图形界面，`--help` 查看命令行用法。选择工具前可查看上表对应介绍页。合集解压后直接运行需要的 EXE，无需安装 Python；EXE 未签名。
+
+视频转 GIF、提取音频和下载器需要 FFmpeg。请从 [官方入口](https://ffmpeg.org/download.html)获取，将 ffmpeg.exe 放在 EXE 同目录或加入 PATH。合集不捆绑 FFmpeg。下载器的站点支持随平台与 yt-dlp 变化，仅下载有权保存的内容。
+
+## Python 源码与构建
+
+旧七款的依赖在各自目录的 requirements.txt；重复文件扫描器、SHA-256 校验器、文件夹对比器、编码转换器仅使用标准库。
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-build.txt
 .venv\Scripts\python.exe tools\batch-resize\batch_resize.py
-.venv\Scripts\python.exe tests\smoke.py
+.venv\Scripts\python.exe tools\folder-compare\folder_compare.py
 .venv\Scripts\python.exe build.py
 ```
 
-验证环境和具体依赖见 [DEPENDENCIES.md](DEPENDENCIES.md)，验证记录见 [VALIDATION.md](VALIDATION.md)。第三方组件保留各自许可，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。EXE 未做代码签名。
+依赖版本、体积和卸载见 [DEPENDENCIES.md](DEPENDENCIES.md)，第三方许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。满蓝修改源码 MIT，原游戏及 Flash 播放器保留各自许可。
 
-## 请我喝杯咖啡
+## 自愿赞助
 
-下载、使用和源码均免费，赞助完全自愿，不解锁额外功能。
+下载、功能和源码全部免费；赞助完全自愿。
 
 <img src="assets/donate-wechat.png" alt="自愿微信赞助二维码" width="280">

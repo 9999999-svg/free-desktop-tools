@@ -1,15 +1,15 @@
 # 批量正方形缩图
 
-按指定边长缩放并居中裁剪为正方形；默认跳过已有输出。原 README 中的宽高、百分比与 fit 模式并非当前实现。
+按指定边长缩放并居中裁剪为正方形；默认跳过已有输出。
 
 所有功能免费，源码采用 MIT 许可。
 
 ## Windows EXE
 
-从仓库 Releases 下载 `BatchResize.exe`。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python batch_resize.py` 换成 `BatchResize.exe`。
+[下载 Windows EXE](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.0.0/BatchResize.exe) · [查看 Python 源码](batch_resize.py) · [下载全部源码](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/free-desktop-tools-source-v1.1.0.zip)。不带参数启动图形界面；命令行用法与 Python 版一致，将 `python batch_resize.py` 换成 `BatchResize.exe`。
 ## Python 源码
 
-本次验证环境：Windows x64 / Python 3.14.6。安装本目录依赖后启动：
+安装本目录依赖后启动：
 
 ```powershell
 python -m pip install -r requirements.txt

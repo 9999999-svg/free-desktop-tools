@@ -25,3 +25,8 @@ EXE 媒体工具使用同目录或 PATH 中的 ffmpeg.exe。请从 https://ffmpe
 ## 安装与卸载
 
 源码版优先在虚拟环境安装各工具自己的 requirements.txt。无全局系统设置、注册表或启动项。卸载时删除自行创建的虚拟环境和工具文件夹即可；EXE 为便携文件，删除即可。自行单独安装的 FFmpeg 可删除其目录，若曾手动加入 PATH，再移除对应 PATH 条目。
+# 新增标准库工具
+
+重复文件扫描器、SHA-256 批量校验器、文件夹对比器和文本编码转换器只使用 Python 标准库及 Tkinter，无 pip 运行依赖；复用已有 Python 3.14.6、PyInstaller 6.21.0 与构建依赖，没有再次下载。每款 EXE 约 12.5 MiB，可直接删除下载文件卸载，不添加服务、启动项或系统 PATH。
+
+新增工具的详细构建与卸载说明在各自目录的 DEPENDENCIES.md。精灵物语满蓝版无需 Python 游戏运行环境，修改源码无第三方 Python 依赖；原游戏与独立播放器许可见 games/full-mana-edition/NOTICE.md。
