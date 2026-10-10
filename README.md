@@ -1,10 +1,10 @@
-# 免费桌面工具集 / Free Desktop Tools
+# 免费桌面工具集
 
-11 款免费桌面工具，加上《精灵物语》满蓝修改版。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
+13 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
 
 ## 下载
 
-[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/all-tools-windows-v1.1.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/free-desktop-tools-source-v1.1.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.1.0/SHA256SUMS.txt)
+[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.2.0/all-tools-windows-v1.2.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.2.0/free-desktop-tools-source-v1.2.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.2.0/SHA256SUMS.txt)
 
 | 工具 | 用途 | EXE 直接下载 | 源码和介绍 |
 | --- | --- | --- | --- |
@@ -19,9 +19,9 @@
 | SHA-256 批量校验器 | 按清单核对下载文件完整性 | [下载](https://github.com/9999999-svg/sha256-checker/releases/download/v1.0.0/SHA256Checker.exe) | [介绍](tools/sha256-checker/README.md) · [源码](tools/sha256-checker/sha256_checker.py) · [独立仓库](https://github.com/9999999-svg/sha256-checker) |
 | 文件夹对比器 | 检查两份备份的文件差异 | [下载](https://github.com/9999999-svg/folder-compare/releases/download/v1.0.0/FolderCompare.exe) | [介绍](tools/folder-compare/README.md) · [源码](tools/folder-compare/folder_compare.py) · [独立仓库](https://github.com/9999999-svg/folder-compare) |
 | 文本编码转换器 | 严格转换 GBK、UTF-8、UTF-16 等文本编码 | [下载](https://github.com/9999999-svg/text-encoding-converter/releases/download/v1.0.0/TextEncodingConverter.exe) | [介绍](tools/text-encoding-converter/README.md) · [源码](tools/text-encoding-converter/text_encoding_converter.py) · [独立仓库](https://github.com/9999999-svg/text-encoding-converter) |
-| 精灵物语满蓝版 | 蓝量恢复满值 | [下载](https://github.com/9999999-svg/full-mana-edition/releases/download/v1.0.0/FullMana.exe) | [介绍及修改源码](games/full-mana-edition/README.md) · [独立仓库](https://github.com/9999999-svg/full-mana-edition) |
+| 文件清单导出器 | 导出路径、大小、时间和可选 SHA-256 | [下载](https://github.com/9999999-svg/file-catalog/releases/download/v1.0.0/FileCatalog.exe) | [介绍](tools/file-catalog/README.md) · [源码](tools/file-catalog/file_catalog.py) · [独立仓库](https://github.com/9999999-svg/file-catalog) |
+| 大文件分割与合并器 | 分块传输文件，按 SHA-256 校验合并 | [下载](https://github.com/9999999-svg/file-chunker/releases/download/v1.0.0/FileChunker.exe) | [介绍](tools/file-chunker/README.md) · [源码](tools/file-chunker/file_chunker.py) · [独立仓库](https://github.com/9999999-svg/file-chunker) |
 
-需要 SWF 版可[单独下载](https://github.com/9999999-svg/full-mana-edition/releases/download/v1.0.0/FullMana.swf)。
 
 ## 使用
 
@@ -31,7 +31,7 @@
 
 ## Python 源码与构建
 
-旧七款的依赖在各自目录的 requirements.txt；重复文件扫描器、SHA-256 校验器、文件夹对比器、编码转换器仅使用标准库。
+旧七款的依赖在各自目录的 requirements.txt；其余六款新工具仅使用标准库。
 
 ```powershell
 python -m venv .venv
@@ -41,7 +41,7 @@ python -m venv .venv
 .venv\Scripts\python.exe build.py
 ```
 
-依赖版本、体积和卸载见 [DEPENDENCIES.md](DEPENDENCIES.md)，第三方许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。满蓝修改源码 MIT，原游戏及 Flash 播放器保留各自许可。
+依赖版本、体积和卸载见 [DEPENDENCIES.md](DEPENDENCIES.md)，第三方许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 自愿赞助
 

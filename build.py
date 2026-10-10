@@ -17,6 +17,8 @@ TOOLS = {
     'sha256-checker': ('sha256_checker.py', 'SHA256Checker'),
     'folder-compare': ('folder_compare.py', 'FolderCompare'),
     'text-encoding-converter': ('text_encoding_converter.py', 'TextEncodingConverter'),
+    'file-catalog': ('file_catalog.py', 'FileCatalog'),
+    'file-chunker': ('file_chunker.py', 'FileChunker'),
 }
 
 def main():
