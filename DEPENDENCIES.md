@@ -34,3 +34,7 @@ EXE 媒体工具使用同目录或 PATH 中的 ffmpeg.exe。请从 https://ffmpe
 ## 本批标准库工具
 
 ZIP 查看与安全解压器、文本行去重器仅使用标准库/Tkinter，复用 Python 3.14.6、PyInstaller 6.21.0 和已安装构建依赖；没有新增下载或全局安装。每款 EXE 约 12.5 MiB，删除文件即可卸载。
+
+## JSON 与空间分析工具
+
+JSON 格式化与检查器、文件夹空间分析器仅使用标准库/Tkinter，复用 Python 3.14.6、PyInstaller 6.21.0 和已安装构建依赖；没有新增下载或全局安装。每款 EXE 约 12.5 MiB，删除文件即可卸载。

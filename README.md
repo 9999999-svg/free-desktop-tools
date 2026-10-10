@@ -1,10 +1,10 @@
 # 免费桌面工具集
 
-17 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
+19 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
 
 ## 下载
 
-[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.4.0/all-tools-windows-v1.4.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.4.0/free-desktop-tools-source-v1.4.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.4.0/SHA256SUMS.txt)
+[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.5.0/all-tools-windows-v1.5.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.5.0/free-desktop-tools-source-v1.5.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.5.0/SHA256SUMS.txt)
 
 | 工具 | 用途 | EXE 直接下载 | 源码和介绍 |
 | --- | --- | --- | --- |
@@ -25,6 +25,8 @@
 | 文本内容搜索器 | 查文字、行号和次数，导出 CSV | [下载](https://github.com/9999999-svg/text-file-search/releases/download/v1.0.0/TextFileSearch.exe) | [介绍](tools/text-file-search/README.md) · [源码](tools/text-file-search/text_file_search.py) · [独立仓库](https://github.com/9999999-svg/text-file-search) |
 | ZIP 查看与安全解压器 | 查看 ZIP 条目、检查危险路径并解压到新文件夹 | [下载](https://github.com/9999999-svg/safe-zip-tool/releases/download/v1.0.0/SafeZipTool.exe) | [介绍](tools/safe-zip-tool/README.md) · [源码](tools/safe-zip-tool/safe_zip_tool.py) · [独立仓库](https://github.com/9999999-svg/safe-zip-tool) |
 | 文本行去重器 | 按首次顺序去除重复行，保留原编码和换行 | [下载](https://github.com/9999999-svg/text-line-deduplicator/releases/download/v1.0.0/TextLineDeduplicator.exe) | [介绍](tools/text-line-deduplicator/README.md) · [源码](tools/text-line-deduplicator/text_line_deduplicator.py) · [独立仓库](https://github.com/9999999-svg/text-line-deduplicator) |
+| JSON 格式化与检查器 | 检查 JSON、保留数字原写法并格式化或压缩 | [下载](https://github.com/9999999-svg/json-formatter/releases/download/v1.0.0/JsonFormatter.exe) | [介绍](tools/json-formatter/README.md) · [源码](tools/json-formatter/json_formatter.py) · [独立仓库](https://github.com/9999999-svg/json-formatter) |
+| 文件夹空间分析器 | 汇总子文件夹逻辑大小、列出大文件并导出 CSV | [下载](https://github.com/9999999-svg/folder-space-analyzer/releases/download/v1.0.0/FolderSpaceAnalyzer.exe) | [介绍](tools/folder-space-analyzer/README.md) · [源码](tools/folder-space-analyzer/folder_space_analyzer.py) · [独立仓库](https://github.com/9999999-svg/folder-space-analyzer) |
 
 ## 使用
 
@@ -34,7 +36,7 @@
 
 ## Python 源码与构建
 
-旧七款的依赖在各自目录的 requirements.txt；其余十款新工具仅使用标准库。
+旧七款的依赖在各自目录的 requirements.txt；其余十二款新工具仅使用标准库。
 
 ```powershell
 python -m venv .venv

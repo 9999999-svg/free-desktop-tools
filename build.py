@@ -23,6 +23,8 @@ TOOLS = {
     'text-file-search': ('text_file_search.py', 'TextFileSearch'),
     'safe-zip-tool': ('safe_zip_tool.py', 'SafeZipTool'),
     'text-line-deduplicator': ('text_line_deduplicator.py', 'TextLineDeduplicator'),
+    'json-formatter': ('json_formatter.py', 'JsonFormatter'),
+    'folder-space-analyzer': ('folder_space_analyzer.py', 'FolderSpaceAnalyzer'),
 }
 
 def main():
