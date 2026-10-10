@@ -1,10 +1,10 @@
 # 免费桌面工具集
 
-15 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
+17 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
 
 ## 下载
 
-[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.3.0/all-tools-windows-v1.3.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.3.0/free-desktop-tools-source-v1.3.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.3.0/SHA256SUMS.txt)
+[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.4.0/all-tools-windows-v1.4.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.4.0/free-desktop-tools-source-v1.4.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.4.0/SHA256SUMS.txt)
 
 | 工具 | 用途 | EXE 直接下载 | 源码和介绍 |
 | --- | --- | --- | --- |
@@ -23,7 +23,8 @@
 | 大文件分割与合并器 | 分块传输文件，按 SHA-256 校验合并 | [下载](https://github.com/9999999-svg/file-chunker/releases/download/v1.0.0/FileChunker.exe) | [介绍](tools/file-chunker/README.md) · [源码](tools/file-chunker/file_chunker.py) · [独立仓库](https://github.com/9999999-svg/file-chunker) |
 | CSV 合并器 | 按顺序合并表头相同的 CSV | [下载](https://github.com/9999999-svg/csv-merger/releases/download/v1.0.0/CsvMerger.exe) | [介绍](tools/csv-merger/README.md) · [源码](tools/csv-merger/csv_merger.py) · [独立仓库](https://github.com/9999999-svg/csv-merger) |
 | 文本内容搜索器 | 查文字、行号和次数，导出 CSV | [下载](https://github.com/9999999-svg/text-file-search/releases/download/v1.0.0/TextFileSearch.exe) | [介绍](tools/text-file-search/README.md) · [源码](tools/text-file-search/text_file_search.py) · [独立仓库](https://github.com/9999999-svg/text-file-search) |
-
+| ZIP 查看与安全解压器 | 查看 ZIP 条目、检查危险路径并解压到新文件夹 | [下载](https://github.com/9999999-svg/safe-zip-tool/releases/download/v1.0.0/SafeZipTool.exe) | [介绍](tools/safe-zip-tool/README.md) · [源码](tools/safe-zip-tool/safe_zip_tool.py) · [独立仓库](https://github.com/9999999-svg/safe-zip-tool) |
+| 文本行去重器 | 按首次顺序去除重复行，保留原编码和换行 | [下载](https://github.com/9999999-svg/text-line-deduplicator/releases/download/v1.0.0/TextLineDeduplicator.exe) | [介绍](tools/text-line-deduplicator/README.md) · [源码](tools/text-line-deduplicator/text_line_deduplicator.py) · [独立仓库](https://github.com/9999999-svg/text-line-deduplicator) |
 
 ## 使用
 
@@ -33,7 +34,7 @@
 
 ## Python 源码与构建
 
-旧七款的依赖在各自目录的 requirements.txt；其余八款新工具仅使用标准库。
+旧七款的依赖在各自目录的 requirements.txt；其余十款新工具仅使用标准库。
 
 ```powershell
 python -m venv .venv

@@ -30,3 +30,7 @@ EXE 媒体工具使用同目录或 PATH 中的 ffmpeg.exe。请从 https://ffmpe
 重复文件扫描器、SHA-256 批量校验器、文件夹对比器和文本编码转换器只使用 Python 标准库及 Tkinter，无 pip 运行依赖；复用已有 Python 3.14.6、PyInstaller 6.21.0 与构建依赖，没有再次下载。每款 EXE 约 12.5 MiB，可直接删除下载文件卸载，不添加服务、启动项或系统 PATH。
 
 新增工具的详细构建与卸载说明在各自目录的 DEPENDENCIES.md。
+
+## 本批标准库工具
+
+ZIP 查看与安全解压器、文本行去重器仅使用标准库/Tkinter，复用 Python 3.14.6、PyInstaller 6.21.0 和已安装构建依赖；没有新增下载或全局安装。每款 EXE 约 12.5 MiB，删除文件即可卸载。

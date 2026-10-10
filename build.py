@@ -21,6 +21,8 @@ TOOLS = {
     'file-chunker': ('file_chunker.py', 'FileChunker'),
     'csv-merger': ('csv_merger.py', 'CsvMerger'),
     'text-file-search': ('text_file_search.py', 'TextFileSearch'),
+    'safe-zip-tool': ('safe_zip_tool.py', 'SafeZipTool'),
+    'text-line-deduplicator': ('text_line_deduplicator.py', 'TextLineDeduplicator'),
 }
 
 def main():
