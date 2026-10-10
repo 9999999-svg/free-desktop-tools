@@ -19,6 +19,8 @@ TOOLS = {
     'text-encoding-converter': ('text_encoding_converter.py', 'TextEncodingConverter'),
     'file-catalog': ('file_catalog.py', 'FileCatalog'),
     'file-chunker': ('file_chunker.py', 'FileChunker'),
+    'csv-merger': ('csv_merger.py', 'CsvMerger'),
+    'text-file-search': ('text_file_search.py', 'TextFileSearch'),
 }
 
 def main():

@@ -1,10 +1,10 @@
 # 免费桌面工具集
 
-13 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
+15 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
 
 ## 下载
 
-[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.2.0/all-tools-windows-v1.2.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.2.0/free-desktop-tools-source-v1.2.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.2.0/SHA256SUMS.txt)
+[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.3.0/all-tools-windows-v1.3.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.3.0/free-desktop-tools-source-v1.3.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.3.0/SHA256SUMS.txt)
 
 | 工具 | 用途 | EXE 直接下载 | 源码和介绍 |
 | --- | --- | --- | --- |
@@ -21,6 +21,8 @@
 | 文本编码转换器 | 严格转换 GBK、UTF-8、UTF-16 等文本编码 | [下载](https://github.com/9999999-svg/text-encoding-converter/releases/download/v1.0.0/TextEncodingConverter.exe) | [介绍](tools/text-encoding-converter/README.md) · [源码](tools/text-encoding-converter/text_encoding_converter.py) · [独立仓库](https://github.com/9999999-svg/text-encoding-converter) |
 | 文件清单导出器 | 导出路径、大小、时间和可选 SHA-256 | [下载](https://github.com/9999999-svg/file-catalog/releases/download/v1.0.0/FileCatalog.exe) | [介绍](tools/file-catalog/README.md) · [源码](tools/file-catalog/file_catalog.py) · [独立仓库](https://github.com/9999999-svg/file-catalog) |
 | 大文件分割与合并器 | 分块传输文件，按 SHA-256 校验合并 | [下载](https://github.com/9999999-svg/file-chunker/releases/download/v1.0.0/FileChunker.exe) | [介绍](tools/file-chunker/README.md) · [源码](tools/file-chunker/file_chunker.py) · [独立仓库](https://github.com/9999999-svg/file-chunker) |
+| CSV 合并器 | 按顺序合并表头相同的 CSV | [下载](https://github.com/9999999-svg/csv-merger/releases/download/v1.0.0/CsvMerger.exe) | [介绍](tools/csv-merger/README.md) · [源码](tools/csv-merger/csv_merger.py) · [独立仓库](https://github.com/9999999-svg/csv-merger) |
+| 文本内容搜索器 | 查文字、行号和次数，导出 CSV | [下载](https://github.com/9999999-svg/text-file-search/releases/download/v1.0.0/TextFileSearch.exe) | [介绍](tools/text-file-search/README.md) · [源码](tools/text-file-search/text_file_search.py) · [独立仓库](https://github.com/9999999-svg/text-file-search) |
 
 
 ## 使用
@@ -31,7 +33,7 @@
 
 ## Python 源码与构建
 
-旧七款的依赖在各自目录的 requirements.txt；其余六款新工具仅使用标准库。
+旧七款的依赖在各自目录的 requirements.txt；其余八款新工具仅使用标准库。
 
 ```powershell
 python -m venv .venv
