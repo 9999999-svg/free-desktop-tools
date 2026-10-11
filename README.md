@@ -1,10 +1,10 @@
 # 免费桌面工具集
 
-19 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
+21 款免费桌面工具。每款普通工具都有独立仓库，提供 Python 源码与 Windows x64 EXE，既可单独下载，也可下载合集。自有代码 MIT，功能全部免费。
 
 ## 下载
 
-[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.5.0/all-tools-windows-v1.5.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.5.0/free-desktop-tools-source-v1.5.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.5.0/SHA256SUMS.txt)
+[下载 Windows 合集 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.6.0/all-tools-windows-v1.6.0.zip) · [下载全部源码 ZIP](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.6.0/free-desktop-tools-source-v1.6.0.zip) · [校验文件](https://github.com/9999999-svg/free-desktop-tools/releases/download/v1.6.0/SHA256SUMS.txt)
 
 | 工具 | 用途 | EXE 直接下载 | 源码和介绍 |
 | --- | --- | --- | --- |
@@ -27,6 +27,8 @@
 | 文本行去重器 | 按首次顺序去除重复行，保留原编码和换行 | [下载](https://github.com/9999999-svg/text-line-deduplicator/releases/download/v1.0.0/TextLineDeduplicator.exe) | [介绍](tools/text-line-deduplicator/README.md) · [源码](tools/text-line-deduplicator/text_line_deduplicator.py) · [独立仓库](https://github.com/9999999-svg/text-line-deduplicator) |
 | JSON 格式化与检查器 | 检查 JSON、保留数字原写法并格式化或压缩 | [下载](https://github.com/9999999-svg/json-formatter/releases/download/v1.0.0/JsonFormatter.exe) | [介绍](tools/json-formatter/README.md) · [源码](tools/json-formatter/json_formatter.py) · [独立仓库](https://github.com/9999999-svg/json-formatter) |
 | 文件夹空间分析器 | 汇总子文件夹逻辑大小、列出大文件并导出 CSV | [下载](https://github.com/9999999-svg/folder-space-analyzer/releases/download/v1.0.0/FolderSpaceAnalyzer.exe) | [介绍](tools/folder-space-analyzer/README.md) · [源码](tools/folder-space-analyzer/folder_space_analyzer.py) · [独立仓库](https://github.com/9999999-svg/folder-space-analyzer) |
+| 文本差异查看器 | 比较两份文本的新增、删除和修改行，导出 unified diff | [下载](https://github.com/9999999-svg/text-diff-viewer/releases/download/v1.0.0/TextDiffViewer.exe) | [介绍](tools/text-diff-viewer/README.md) · [源码](tools/text-diff-viewer/text_diff_viewer.py) · [独立仓库](https://github.com/9999999-svg/text-diff-viewer) |
+| Unix 时间戳转换器 | 精确转换 Unix 秒/毫秒和带偏移量的日期，批量导出 CSV | [下载](https://github.com/9999999-svg/timestamp-converter/releases/download/v1.0.0/TimestampConverter.exe) | [介绍](tools/timestamp-converter/README.md) · [源码](tools/timestamp-converter/timestamp_converter.py) · [独立仓库](https://github.com/9999999-svg/timestamp-converter) |
 
 ## 使用
 
@@ -36,7 +38,7 @@
 
 ## Python 源码与构建
 
-旧七款的依赖在各自目录的 requirements.txt；其余十二款新工具仅使用标准库。
+旧七款的依赖在各自目录的 requirements.txt；其余十四款新工具仅使用标准库。
 
 ```powershell
 python -m venv .venv

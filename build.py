@@ -25,6 +25,8 @@ TOOLS = {
     'text-line-deduplicator': ('text_line_deduplicator.py', 'TextLineDeduplicator'),
     'json-formatter': ('json_formatter.py', 'JsonFormatter'),
     'folder-space-analyzer': ('folder_space_analyzer.py', 'FolderSpaceAnalyzer'),
+    'text-diff-viewer': ('text_diff_viewer.py', 'TextDiffViewer'),
+    'timestamp-converter': ('timestamp_converter.py', 'TimestampConverter'),
 }
 
 def main():
